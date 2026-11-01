@@ -87,7 +87,7 @@ function App() {
   return (
     <main className="app-shell">
       <aside className="sidebar">
-        <div className="brand"><Gem /><span>EMAN <b>ADMIN</b></span></div>
+        <div className="brand"><img src="https://raw.githubusercontent.com/khizarusestate/Eman-Jewelers/main/public/images/Logo.png" alt="Eman Jewelers logo" className="nav-logo" /><span>EMAN <b>ADMIN</b></span></div>
         <div className="side-active"><LayoutDashboard size={18} /> Dashboard</div>
         <div className="side-active"><Users size={18} /> Customers</div>
         <div className="side-foot"><ShieldCheck size={16} /> Temporary demo mode</div>
